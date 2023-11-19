@@ -1,0 +1,210 @@
+/*Polices*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Raleway:wght@700&display=swap');
+
+@font-face {
+    font-family: "Raleway-Regular";
+    src: url(../assets/fonts/Raleway-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Raleway-Italic";
+    src: url(../assets/fonts/Raleway-Italic.ttf);
+}
+
+body {
+    border: 3px solid black;
+}
+
+.container {
+    margin: auto;
+    width: 1160;
+    background-color:#782221;
+}
+
+/*Header*/
+header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background-color: #782221;
+    color: white;
+}
+.header__title {
+    font-family: "Lato";
+}
+
+.header__text {
+    font-family: "Lato";
+    margin-bottom: 40px;
+}
+
+#profil {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #dbc2a4;
+    box-shadow: 2px 2px 2px #dbc2a4; 
+    border-radius: 50%;
+    cursor: zoom-in;
+    margin-top: 40px;
+}
+
+/*Address*/
+address {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #2c1d27; 
+    font-family: "Raleway-Italic"; 
+    font-size: 1em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.address__child {
+    flex: 1 1 0;
+    align-self: center;
+    color: white;
+}
+
+.address__child-link--style {
+    text-decoration: none;
+    color: white;
+}
+
+.address__child-link--style:hover {
+    text-decoration: underline;
+}
+
+.address__child-at--start { 
+    text-align: start;
+    margin-left: 30px;
+}
+
+.address__child-at--center {
+    text-align: center;
+}
+
+.address__child-at--end {
+    text-align: end;
+    margin-right: 30px;
+}
+
+/*Main*/
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.left__side {
+    flex: 1 1 0;
+    background-color: #782221;
+}
+
+.left__side > section {
+    font-family: "Raleway-Regular";
+    color: white;
+    font-size: 1em;
+    margin-right: 40px;
+    margin-bottom: 30px;
+}
+
+.left__side > section > h3 {
+    font-family: "Lato";
+    font-weight: bold;
+    font-size: 1.3em;
+    color: #2c1d27;
+    background-color: #dbc2a4;
+    padding: 5px 15px;
+}
+
+.left__side > section > ul > li {
+    margin-left: -10px;
+}
+
+.left__side > section > p {
+    text-align: justify;
+    text-indent: 20px;
+    margin-left: 15px;
+}
+
+.right__side {
+    flex: 2 1 0;
+    background-color: white;
+}
+
+.right__side > section {
+    font-family: "Raleway-Regular";
+    font-size: 1.em;
+    color: black;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.right__side > section > h3 {
+    font-family: "Lato";  
+    font-weight: bold;
+    font-size: 1.3em;
+    background-color: #dbc2a4;
+    padding: 5px 15px;
+}
+
+.right__side > section {
+    margin-left: 15px;
+}
+
+.right__side > section:hover > h3 {
+    border-left: 5px solid #782221;
+}
+
+.right__side > section > h4 {
+    font-family: "Lato";
+    font-size: 1.1em;
+}
+
+/*Footer*/
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background-color: #782221;
+}
+
+.footer__images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.logo_linkedin {    
+    margin: 20px;
+}
+
+.logo_twitter {
+    margin: 20px;
+}
+
+.logo_GitHub {
+    margin: 20px;
+}
+
+.logo_linkedin img:hover {
+    opacity: 0.5;
+}
+
+.logo_twitter img:hover {
+    opacity: 0.5;
+}
+.logo_GitHub img:hover {
+    opacity: 0.5;
+}
+
+.footer__date {
+    font-size: 0.9em;
+    color: white;
+}
